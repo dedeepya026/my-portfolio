@@ -50,7 +50,7 @@ const Navbar = () => {
             }}>
             <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <ScrollLink to="hero" smooth={true} duration={500} style={{ cursor: 'pointer', fontSize: '1.5rem', fontWeight: '700', color: 'var(--text-primary)' }}>
-                    Portfolio<span style={{ color: 'var(--primary)' }}>.</span>
+                    Dedeepya<span style={{ color: 'var(--primary)' }}>.</span>
                 </ScrollLink>
 
                 {/* Desktop Menu */}

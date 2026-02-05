@@ -113,6 +113,33 @@ const Hero = () => {
           >
             Check Out My Work
           </ScrollLink>
+
+          <a
+            href={portfolioData.about.resumeLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: 'inline-block',
+              padding: '1rem 2.5rem',
+              marginLeft: '1rem',
+              border: '2px solid var(--primary)',
+              color: 'var(--primary)',
+              borderRadius: '50px',
+              fontWeight: '600',
+              cursor: 'pointer',
+              transition: 'all 0.2s'
+            }}
+            onMouseOver={(e) => {
+              e.currentTarget.style.backgroundColor = 'var(--primary)';
+              e.currentTarget.style.color = 'white';
+            }}
+            onMouseOut={(e) => {
+              e.currentTarget.style.backgroundColor = 'transparent';
+              e.currentTarget.style.color = 'var(--primary)';
+            }}
+          >
+            Resume
+          </a>
         </motion.div>
 
         {/* Profile Photo (Right) */}

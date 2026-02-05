@@ -9,12 +9,16 @@ export const portfolioData = {
             { id: 1, icon: FaGithub, link: "https://github.com/dedeepya026", label: "GitHub" },
             { id: 2, icon: FaLinkedin, link: "http://www.linkedin.com/in/dedeepyapenumaka", label: "LinkedIn" },
             { id: 3, icon: FaEnvelope, link: "mailto:penumakadedeepya@gmail.com", label: "Email" },
-            { id: 4, icon: FaFileAlt, link: "https://drive.google.com/file/d/1R4usxCaGA6q8tLrOC20a-z4GiYGGGTA3/view?usp=drive_link", label: "Resume" },
         ]
     },
 
     about: {
-        text: "I am a Computer Science undergraduate at VIT Chennai with a strong interest in Machine Learning, Deep Learning, and Software Development. I have research experience as a Research Intern, where I worked on predictive healthcare models using various ML and DL techniques. My project work includes developing an industry-specific dynamic risk index prediction system using ensemble learning, building a full-stack MERN-based URL shortener, and designing an NLP-driven cyberbullying detection system focused on privacy-aware deployment. I am proficient in Python, Java, C/C++. I also have strong foundations in core computer science subjects including DSA, OS, DBMS, and Computer Networks. I have published an IEEE paper on non-invasive blood glucose monitoring using Terahertz Spectroscopy and earned certifications such as Microsoft Azure AI Fundamentals. Beyond academics, I have held leadership roles as the Treasurer of the Dance Club and as a Management Lead and Marketing Team Member at VIT Chennai. I am actively seeking opportunities in AI/ML, Data Science, and Software Engineering to contribute and grow in collaborative, challenging environments."
+        text: [
+            "I am a Computer Science undergraduate at VIT Chennai with a strong interest in Machine Learning, Deep Learning, and Software Development. I have research experience as a Research Intern, where I worked on predictive healthcare models using various ML and DL techniques.",
+            "My project work includes developing an industry-specific dynamic risk index prediction system using ensemble learning, building a full-stack MERN-based URL shortener, and designing an NLP-driven cyberbullying detection system focused on privacy-aware deployment. I am proficient in Python, Java, C/C++. I also have strong foundations in core computer science subjects including DSA, OS, DBMS, and Computer Networks.",
+            "I have published an IEEE paper on non-invasive blood glucose monitoring using Terahertz Spectroscopy and earned certifications such as Microsoft Azure AI Fundamentals. Beyond academics, I have held leadership roles as the Treasurer of the Dance Club and as a Management Lead and Marketing Team Member at VIT Chennai. I am actively seeking opportunities in AI/ML, Data Science, and Software Engineering to contribute and grow in collaborative, challenging environments."
+        ],
+        resumeLink: "https://drive.google.com/file/d/1R4usxCaGA6q8tLrOC20a-z4GiYGGGTA3/view?usp=drive_link"
     },
 
     skills: [

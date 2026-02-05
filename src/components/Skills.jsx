@@ -28,19 +28,24 @@ const Skills = () => {
                   borderRadius: '2rem',
                   fontSize: '1rem',
                   color: 'var(--text-primary)',
-                  border: '1px solid rgba(255,255,255,0.05)',
+                  fontWeight: '500',
+                  backgroundColor: 'rgba(255,255,255,0.8)', // Slightly more opaque for better contrast
+                  border: '2px solid var(--primary)', // Solid colored outline by default
+                  boxShadow: '0 2px 10px rgba(139, 92, 246, 0.1)', // Subtle glow
                   transition: 'all 0.3s ease',
                   cursor: 'default'
                 }}
                   onMouseOver={(e) => {
                     e.currentTarget.style.transform = 'translateY(-3px)';
-                    e.currentTarget.style.borderColor = 'var(--primary)';
-                    e.currentTarget.style.boxShadow = '0 5px 15px var(--primary-glow)';
+                    e.currentTarget.style.backgroundColor = 'var(--primary)';
+                    e.currentTarget.style.color = 'white';
+                    e.currentTarget.style.boxShadow = '0 5px 20px var(--primary-glow)';
                   }}
                   onMouseOut={(e) => {
                     e.currentTarget.style.transform = 'translateY(0)';
-                    e.currentTarget.style.borderColor = 'rgba(255,255,255,0.05)';
-                    e.currentTarget.style.boxShadow = 'none';
+                    e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.8)';
+                    e.currentTarget.style.color = 'var(--text-primary)';
+                    e.currentTarget.style.boxShadow = '0 2px 10px rgba(139, 92, 246, 0.1)';
                   }}
                 >
                   {skill}
