@@ -1,2 +1,2 @@
-#my portfolio 
+My portfolio 
 Built using ReactJS 
