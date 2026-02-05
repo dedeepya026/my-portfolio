@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaFileAlt } from 'react-icons/fa';
 export const portfolioData = {
     hero: {
         name: "Dedeepya Penumaka",
-        title: "Data Science",
+        title: "Software Developer",
         description: "Undergrad CS student skilled in software development & ML, research intern with an IEEE publication, seeking collaborative and challenging roles to grow.",
         socials: [
             { id: 1, icon: FaGithub, link: "https://github.com/dedeepya026", label: "GitHub" },
