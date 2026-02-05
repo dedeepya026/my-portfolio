@@ -18,7 +18,7 @@ export const portfolioData = {
             "My project work includes developing an industry-specific dynamic risk index prediction system using ensemble learning, building a full-stack MERN-based URL shortener, and designing an NLP-driven cyberbullying detection system focused on privacy-aware deployment. I am proficient in Python, Java, C/C++. I also have strong foundations in core computer science subjects including DSA, OS, DBMS, and Computer Networks.",
             "I have published an IEEE paper on non-invasive blood glucose monitoring using Terahertz Spectroscopy and earned certifications such as Microsoft Azure AI Fundamentals. Beyond academics, I have held leadership roles as the Treasurer of the Dance Club and as a Management Lead and Marketing Team Member at VIT Chennai. I am actively seeking opportunities in AI/ML, Data Science, and Software Engineering to contribute and grow in collaborative, challenging environments."
         ],
-        resumeLink: "https://drive.google.com/file/d/1R4usxCaGA6q8tLrOC20a-z4GiYGGGTA3/view?usp=drive_link"
+        resumeLink: "https://drive.google.com/file/d/16HAEHm1L85yBnqBf9nw2j7q4hINr0ZSc/view?usp=drive_link"
     },
 
     skills: [
