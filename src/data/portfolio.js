@@ -69,6 +69,14 @@ export const portfolioData = {
     projects: [
         {
             id: 1,
+            title: "RoBERTa LoRA Text Classifier",
+            description: "Achieved 88.1% accuracy on AG News by fine-tuning only 0.5% of RoBERTa parameters(667K/125M) with LoRA, reducing compute and memory by 99%+ and outperforming full fine-tuning under a strict 1M parameter budget.",
+            techStack: ["PyTorch", "Hugging Face", "LoRA", "Natural Language Processing"],
+            link: "https://github.com/dedeepya026/LoRA-Text-Classifier",
+            deployment: ""
+        },
+        {
+            id: 2,
             title: "Industry-Specific Dynamic Risk Index Prediction",
             description: "Built an advanced ensemble-based risk prediction system integrating XGBoost, Random Forest, Gradient Boosting, and Neural Networks to model industry-specific risks using economic indicators. Deployed an interactive tool with real-time predictions and visual risk assessments (0–100 scale) for seven key industries, achieving R² scores between 0.4 and 0.7 across models.",
             techStack: ["Deep Learning", "Machine Learning", "Python"],
@@ -76,7 +84,7 @@ export const portfolioData = {
             deployment: ""
         },
         {
-            id: 2,
+            id: 3,
             title: "URL Shortener",
             description: "Built a full-stack URL shortener that allows users to convert long URLs into short, shareable links using React for the frontend and Node, Express, MongoDB for backend processing. Implemented API routes for URL shortening and redirection, integrated shortid for unique code generation, and created a clean, responsive UI for smooth user interaction.",
             techStack: ["MongoDB", "ReactJS", "NodeJS", "ExpressJS"],
@@ -84,7 +92,7 @@ export const portfolioData = {
             deployment: ""
         },
         {
-            id: 3,
+            id: 4,
             title: "Cyberbullying Detection System",
             description: "Designed a real-time cyberbullying detection system using NLP and Machine Learning, leveraging fog-edge computing to minimize data transmission while enhancing privacy. Trained and evaluated 3 ML models (KNN, Logistic Regression, Linear SVC), achieving a peak accuracy of 85%, with Flask-Streamlit integration for seamless deployment.",
             techStack: ["NLP", "Machine Learning", "Streamlit", "Flask"],
