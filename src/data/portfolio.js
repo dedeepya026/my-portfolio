@@ -18,7 +18,7 @@ export const portfolioData = {
             "My project work includes developing an industry-specific dynamic risk index prediction system using ensemble learning, building a full-stack MERN-based URL shortener, and designing an NLP-driven cyberbullying detection system focused on privacy-aware deployment. I am proficient in Python, Java, C/C++. I also have strong foundations in core computer science subjects including DSA, OS, DBMS, and Computer Networks.",
             "I have published an IEEE paper on non-invasive blood glucose monitoring using Terahertz Spectroscopy and earned certifications such as Microsoft Azure AI Fundamentals. Beyond academics, I have held leadership roles as the Treasurer of the Dance Club and as a Management Lead and Marketing Team Member at VIT Chennai. I am actively seeking opportunities in AI/ML, Data Science, and Software Engineering to contribute and grow in collaborative, challenging environments."
         ],
-        resumeLink: "https://drive.google.com/file/d/16HAEHm1L85yBnqBf9nw2j7q4hINr0ZSc/view?usp=drive_link"
+        resumeLink: "https://drive.google.com/file/d/1EDufTS4ms_2TpSzQ-MmtHd8b8e6avxM1/view?usp=sharing"
     },
 
     skills: [
@@ -32,7 +32,7 @@ export const portfolioData = {
         },
         {
             category: "Database Management",
-            items: ["SQL", "MySQL", "MongoDB"]
+            items: ["SQL", "MySQL", "MongoDB", "PostgreSQL"]
         },
         {
             category: "CS Fundamentals",
@@ -97,6 +97,14 @@ export const portfolioData = {
             description: "Designed a real-time cyberbullying detection system using NLP and Machine Learning, leveraging fog-edge computing to minimize data transmission while enhancing privacy. Trained and evaluated 3 ML models (KNN, Logistic Regression, Linear SVC), achieving a peak accuracy of 85%, with Flask-Streamlit integration for seamless deployment.",
             techStack: ["NLP", "Machine Learning", "Streamlit", "Flask"],
             link: "https://github.com/dedeepya026/Cyberbullying-detection-project",
+            deployment: ""
+        },
+        {
+            id: 5,
+            title: "Customer Behaviour Analysis",
+            description: "Built an end-to-end customer behavior analytics pipeline using Python, SQL, and Power BI to analyze large datasets and uncover purchasing patterns and loyalty trends. Delivered actionable insights by identifying high-value customer segments and developing interactive dashboards, enabling data-driven strategies for customer retention and business growth",
+            techStack: ["Python", "SQL", "PowerBI"],
+            link: "https://github.com/dedeepya026/customer-data-analytics",
             deployment: ""
         }
     ],
