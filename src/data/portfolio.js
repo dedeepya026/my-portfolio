@@ -18,7 +18,7 @@ export const portfolioData = {
             "My project work includes developing an industry-specific dynamic risk index prediction system using ensemble learning, building a full-stack MERN-based URL shortener, and designing an NLP-driven cyberbullying detection system focused on privacy-aware deployment. I am proficient in Python, Java, C/C++. I also have strong foundations in core computer science subjects including DSA, OS, DBMS, and Computer Networks.",
             "I have published an IEEE paper on non-invasive blood glucose monitoring using Terahertz Spectroscopy and earned certifications such as Microsoft Azure AI Fundamentals. Beyond academics, I have held leadership roles as the Treasurer of the Dance Club and as a Management Lead and Marketing Team Member at VIT Chennai. I am actively seeking opportunities in AI/ML, Data Science, and Software Engineering to contribute and grow in collaborative, challenging environments."
         ],
-        resumeLink: "https://drive.google.com/file/d/1EDufTS4ms_2TpSzQ-MmtHd8b8e6avxM1/view?usp=sharing"
+        resumeLink: "https://drive.google.com/file/d/1p2Get8bLheU9FCAF0DuesskKmczw3iAu/view?usp=sharing"
     },
 
     skills: [
@@ -28,7 +28,7 @@ export const portfolioData = {
         },
         {
             category: "Web Development",
-            items: ["HTML", "CSS", "JavaScript", "ReactJS", "Node JS", "Express JS"]
+            items: ["HTML", "CSS", "JavaScript", "ReactJS", "Node JS", "Express JS", "REST APIs"]
         },
         {
             category: "Database Management",
@@ -48,7 +48,7 @@ export const portfolioData = {
         },
         {
             category: "Data Analytics",
-            items: ["Tableau", "Power BI", "Excel"]
+            items: ["Tableau", "Power BI", "Excel", "ETL"]
         },
         {
             category: "Others",
@@ -77,14 +77,6 @@ export const portfolioData = {
         },
         {
             id: 2,
-            title: "Industry-Specific Dynamic Risk Index Prediction",
-            description: "Built an advanced ensemble-based risk prediction system integrating XGBoost, Random Forest, Gradient Boosting, and Neural Networks to model industry-specific risks using economic indicators. Deployed an interactive tool with real-time predictions and visual risk assessments (0–100 scale) for seven key industries, achieving R² scores between 0.4 and 0.7 across models.",
-            techStack: ["Deep Learning", "Machine Learning", "Python"],
-            link: "https://github.com/dedeepya026/industry-specific-dynamic-risk-index-prediciton",
-            deployment: ""
-        },
-        {
-            id: 3,
             title: "URL Shortener",
             description: "Built a full-stack URL shortener that allows users to convert long URLs into short, shareable links using React for the frontend and Node, Express, MongoDB for backend processing. Implemented API routes for URL shortening and redirection, integrated shortid for unique code generation, and created a clean, responsive UI for smooth user interaction.",
             techStack: ["MongoDB", "ReactJS", "NodeJS", "ExpressJS"],
@@ -92,21 +84,39 @@ export const portfolioData = {
             deployment: ""
         },
         {
-            id: 4,
-            title: "Cyberbullying Detection System",
-            description: "Designed a real-time cyberbullying detection system using NLP and Machine Learning, leveraging fog-edge computing to minimize data transmission while enhancing privacy. Trained and evaluated 3 ML models (KNN, Logistic Regression, Linear SVC), achieving a peak accuracy of 85%, with Flask-Streamlit integration for seamless deployment.",
-            techStack: ["NLP", "Machine Learning", "Streamlit", "Flask"],
-            link: "https://github.com/dedeepya026/Cyberbullying-detection-project",
+            id: 3,
+            title: "KryptVault - Zero-Knowledge Password Manager",
+            description: "A full-stack zero-knowledge password manager leveraging AES-256 encryption and PBKDF2 key derivation to ensure end-to-end data confidentiality with client-side encryption and secure cloud storage. Built RESTful APIs with Node.js and Express, integrated JWT authentication, Bcrypt hashing, rate limiting, and security headers to enhance authentication, data protection, and system reliability",
+            techStack: ["React", "Node.js", "Express", "MongoDB", "JWT"],
+            link: "https://github.com/dedeepya026/KryptVault",
             deployment: ""
         },
         {
-            id: 5,
+            id: 4,
             title: "Customer Behaviour Analysis",
             description: "Built an end-to-end customer behavior analytics pipeline using Python, SQL, and Power BI to analyze large datasets and uncover purchasing patterns and loyalty trends. Delivered actionable insights by identifying high-value customer segments and developing interactive dashboards, enabling data-driven strategies for customer retention and business growth",
             techStack: ["Python", "SQL", "PowerBI"],
             link: "https://github.com/dedeepya026/customer-data-analytics",
             deployment: ""
+        },
+        {
+            id: 5,
+            title: "Industry-Specific Dynamic Risk Index Prediction",
+            description: "Built an advanced ensemble-based risk prediction system integrating XGBoost, Random Forest, Gradient Boosting, and Neural Networks to model industry-specific risks using economic indicators. Deployed an interactive tool with real-time predictions and visual risk assessments (0–100 scale) for seven key industries, achieving R² scores between 0.4 and 0.7 across models.",
+            techStack: ["Deep Learning", "Machine Learning", "Python"],
+            link: "https://github.com/dedeepya026/industry-specific-dynamic-risk-index-prediciton",
+            deployment: ""
+        },
+        
+        {
+            id: 6,
+            title: "Cyberbullying Detection System",
+            description: "Designed a real-time cyberbullying detection system using NLP and Machine Learning, leveraging fog-edge computing to minimize data transmission while enhancing privacy. Trained and evaluated 3 ML models (KNN, Logistic Regression, Linear SVC), achieving a peak accuracy of 85%, with Flask-Streamlit integration for seamless deployment.",
+            techStack: ["NLP", "Machine Learning", "Streamlit", "Flask"],
+            link: "https://github.com/dedeepya026/Cyberbullying-detection-project",
+            deployment: ""
         }
+        
     ],
 
     publications: [
